@@ -4,4 +4,4 @@ before_install:
   - ./scripts/prepareJitpackEnvironment.sh
 install:
   - FILE="-Dfile=payfast-release.aar"
-  - mvn install:install-file $FILE -DgroupId=com.github.youngcet -DartifactId=payfast -Dversion=1.0.4 -Dpackaging=aar -DgeneratePom=true
+  - mvn install:install-file $FILE -DgroupId=com.github.youngcet -DartifactId=payfast -Dversion=1.0.5 -Dpackaging=aar -DgeneratePom=true
